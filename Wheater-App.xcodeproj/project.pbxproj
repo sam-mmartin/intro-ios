@@ -6,7 +6,12 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		8F881B872D4BE03200C8BE11 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 8F881B862D4BE02900C8BE11 /* .gitignore */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
+		8F881B862D4BE02900C8BE11 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 		8FC7A8DF2D4AA01C00F7EE29 /* Wheater-App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Wheater-App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -45,6 +50,7 @@
 		8FC7A8D62D4AA01C00F7EE29 = {
 			isa = PBXGroup;
 			children = (
+				8F881B862D4BE02900C8BE11 /* .gitignore */,
 				8FC7A8E12D4AA01C00F7EE29 /* Wheater-App */,
 				8FC7A8E02D4AA01C00F7EE29 /* Products */,
 			);
@@ -122,6 +128,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8F881B872D4BE03200C8BE11 /* .gitignore in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
