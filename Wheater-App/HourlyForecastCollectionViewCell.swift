@@ -24,7 +24,7 @@ class HourlyForecastCollectionViewCell: UICollectionViewCell {
                                                                      bottom: 8,
                                                                      trailing: 8)
         stackView.layer.borderWidth = 1
-        stackView.layer.borderColor = UIColor.secondaryColor?.cgColor
+        stackView.layer.borderColor = UIColor.whiteAlphaColor?.cgColor
         stackView.layer.cornerRadius = 20
         return stackView
     }()
@@ -32,7 +32,7 @@ class HourlyForecastCollectionViewCell: UICollectionViewCell {
     private lazy var hourLabel: UILabel = {
         let label = UILabel()
         label.translatesAutoresizingMaskIntoConstraints = false
-        label.textColor = UIColor.secondaryColor
+        label.textColor = UIColor.whiteAlphaColor
         label.font = UIFont.systemFont(ofSize: 10, weight: .semibold)
         label.textAlignment = .center
         label.text = "12:00"
@@ -42,7 +42,7 @@ class HourlyForecastCollectionViewCell: UICollectionViewCell {
     private lazy var temperatureLabel: UILabel = {
         let label = UILabel()
         label.translatesAutoresizingMaskIntoConstraints = false
-        label.textColor = UIColor.secondaryColor
+        label.textColor = UIColor.whiteAlphaColor
         label.font = UIFont.systemFont(ofSize: 14, weight: .semibold)
         label.textAlignment = .center
         label.text = "25°C"

@@ -9,8 +9,8 @@ import Foundation
 import UIKit
 
 extension UIColor {
-    static let primaryColor = UIColor(named: "primaryColor")
-    static let secondaryColor = UIColor(named: "secondaryColor")
+    static let accentColor = UIColor(named: "accentColor")
+    static let whiteAlphaColor = UIColor(named: "whiteAlphaColor")
     static let grayAlphaColor = UIColor(named: "grayAlphaColor")
 }
 

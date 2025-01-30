@@ -30,7 +30,7 @@ class ViewController: UIViewController {
         label.translatesAutoresizingMaskIntoConstraints = false
         label.font = UIFont.systemFont(ofSize: 20)
         label.textAlignment = .center
-        label.textColor = UIColor.primaryColor
+        label.textColor = UIColor.accentColor
         label.text = "Valparaíso"
         return label
     }()
@@ -40,7 +40,7 @@ class ViewController: UIViewController {
         label.translatesAutoresizingMaskIntoConstraints = false
         label.font = UIFont.systemFont(ofSize: 70, weight: .bold)
         label.textAlignment = .left
-        label.textColor = UIColor.primaryColor
+        label.textColor = UIColor.accentColor
         label.text = "25°C"
         return label
     }()
@@ -58,7 +58,7 @@ class ViewController: UIViewController {
         label.translatesAutoresizingMaskIntoConstraints = false
         label.text = "Umidade"
         label.font = UIFont.systemFont(ofSize: 12, weight: .semibold)
-        label.textColor = UIColor.secondaryColor
+        label.textColor = UIColor.whiteAlphaColor
         return label
     }()
     
@@ -67,7 +67,7 @@ class ViewController: UIViewController {
         label.translatesAutoresizingMaskIntoConstraints = false
         label.text = "1000mm"
         label.font = UIFont.systemFont(ofSize: 12, weight: .semibold)
-        label.textColor = UIColor.secondaryColor
+        label.textColor = UIColor.whiteAlphaColor
         return label
     }()
     
@@ -83,7 +83,7 @@ class ViewController: UIViewController {
         label.translatesAutoresizingMaskIntoConstraints = false
         label.text = "Vento"
         label.font = UIFont.systemFont(ofSize: 12, weight: .semibold)
-        label.textColor = UIColor.secondaryColor
+        label.textColor = UIColor.whiteAlphaColor
         return label
     }()
     
@@ -92,7 +92,7 @@ class ViewController: UIViewController {
         label.translatesAutoresizingMaskIntoConstraints = false
         label.text = "10Km/h"
         label.font = UIFont.systemFont(ofSize: 12, weight: .semibold)
-        label.textColor = UIColor.secondaryColor
+        label.textColor = UIColor.whiteAlphaColor
         return label
     }()
     
@@ -121,7 +121,7 @@ class ViewController: UIViewController {
     private lazy var hourlyForecastLabel: UILabel = {
         let label = UILabel()
         label.translatesAutoresizingMaskIntoConstraints = false
-        label.textColor = UIColor.secondaryColor
+        label.textColor = UIColor.whiteAlphaColor
         label.font = UIFont.systemFont(ofSize: 12, weight: .bold)
         label.textAlignment = .center
         label.text = "PREVISÃO POR HORA"
